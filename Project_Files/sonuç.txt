@@ -1,0 +1,78 @@
+adaboost 0.8682926829268293
+decisiontree 0.9707317073170731
+grandient boosting 0.9560975609756097
+logistic regression 0.8097560975609757
+randomforest 0.9853658536585366
+svm 0.8878048780487805
+
+
+
+GRİDSEARCH
+adaboost 
+Best Parameters:  {'algorithm': 'SAMME.R', 'learning_rate': 1, 'n_estimators': 200}
+Best Accuracy:  0.9463414634146341
+
+decisiontree 
+Best Parameters:  {'criterion': 'entropy', 'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2, 'splitter': 'best'}
+Best Accuracy:  0.9621951219512195
+
+grandient boosting 
+Best Parameters:  {'learning_rate': 1, 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 5, 'n_estimators': 200}
+Best Accuracy:  0.9829268292682926
+
+logistic regression
+Best Parameters:  {'C': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+Best Accuracy:  0.852439024390244
+
+randomforest
+Best Parameters:  {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
+Best Accuracy:  0.9792682926829268
+
+svm
+Best Parameters:  {'C': 10, 'degree': 4, 'gamma': 1, 'kernel': 'poly'}
+Best Accuracy:  0.9792682926829268
+
+
+
+
+woa
+Best Parameters: {'n_estimators': 622, 'learning_rate': 0.917960090120038, 'algorithm': 'SAMME.R'}
+Best Accuracy: 0.9853658536585366
+Best Parameters: {'criterion': 'entropy', 'splitter': 'random', 'max_depth': 51, 'min_samples_split': 3, 'min_samples_leaf': 1}
+Best Accuracy: 0.9853658536585366
+Best Parameters: {'learning_rate': 0.0063125958763735985, 'n_estimators': 393, 'max_depth': 23, 'min_samples_split': 29, 'min_samples_leaf': 14}
+Best Accuracy: 0.9853658536585366
+Best Parameters: {'penalty': 'l1', 'C': 0.12285729064663378, 'solver': 'liblinear'}
+Best Accuracy: 0.848780487804878
+Best Parameters: {'n_estimators': 361, 'criterion': 'gini', 'max_depth': 67, 'min_samples_split': 3, 'min_samples_leaf': 1, 'max_features': 'log2'}
+Best Accuracy: 0.9853658536585366
+Best Parameters: {'C': 3.704687763040566, 'kernel': 'rbf', 'gamma': 5.082196099444002, 'degree': 225}
+Best Accuracy: 0.9853658536585366
+
+gwo
+Best Parameters: {'n_estimators': 423, 'learning_rate': 1.213848386897522, 'algorithm': 'SAMME.R'}
+Best Accuracy: 0.9853658536585366
+Best Parameters: {'criterion': 'gini', 'splitter': 'random', 'max_depth': 28, 'min_samples_split': 3, 'min_samples_leaf': 1}
+Best Accuracy: 0.9853658536585366
+Best Parameters: {'learning_rate': 0.012308807278474878, 'n_estimators': 610, 'max_depth': 120, 'min_samples_split': 89, 'min_samples_leaf': 43}
+Best Accuracy: 0.9853658536585366
+Best Parameters: {'penalty': 'l1', 'C': 0.12414951971337822, 'solver': 'liblinear'}
+Best Accuracy: 0.848780487804878
+Best Parameters: {'n_estimators': 143, 'criterion': 'entropy', 'max_depth': 28, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2'}
+Best Accuracy: 0.9853658536585366
+Best Parameters: {'C': 6.622938859967216, 'kernel': 'rbf', 'gamma': 2.3470776303048386, 'degree': 108}
+Best Accuracy: 0.9853658536585366
+
+de
+Best Parameters: {'n_estimators': 509.78125, 'learning_rate': 1.20140625, 'algorithm': 'SAMME.R'}
+Best Accuracy: 0.9853658536585366
+Best Parameters: {'criterion': 'entropy', 'splitter': 'best', 'max_depth': 69.14453125, 'min_samples_split': 4.0244140625, 'min_samples_leaf': 1.0859375}
+Best Accuracy: 0.9853658536585366
+Best Parameters: {'learning_rate': 0.0032125, 'n_estimators': 424.66796875, 'max_depth': 28.2734375, 'min_samples_split': 11.4375, 'min_samples_leaf': 8.125}
+Best Accuracy: 0.9853658536585366
+Best Parameters: {'penalty': 'l1', 'C': 0.12394843749999991, 'solver': 'liblinear'}
+Best Accuracy: 0.848780487804878
+Best Parameters: {'n_estimators': 297.1875, 'criterion': 'entropy', 'max_depth': 14.828125, 'min_samples_split': 7.234375, 'min_samples_leaf': 1.75, 'max_features': 'log2'}
+Best Accuracy: 0.9853658536585366
+Best Parameters: {'C': 8.137018554687499, 'kernel': 'rbf', 'gamma': 2.3205712890624994, 'degree': 0.89453125}
+Best Accuracy: 0.9853658536585366
